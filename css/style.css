@@ -1,7 +1,66 @@
-body {
-  background-color: #000;
-  margin: 0;
+
+/*bottom-offset*/
+section#offset{
+	margin-top: 3%;
 }
-h1{
-	color: #fff;
+
+/*navigation*/
+.menu-top{
+	font-size: 14px;
+	color: #343e5b;
+	margin-bottom: 0;
 }
+
+.menu-bottom{
+	font-size: 11px;
+	color: #b9bed1;
+	text-transform: uppercase;
+}
+
+/*content-block*/
+.relative {
+  position: relative;
+}
+
+.d-inline-block {
+  display: inline-block;
+}
+
+.jumbotron{
+  color:#fff;
+  position: absolute;
+  bottom: 10%;
+  left: 20%;
+  transform: translateX(-50%);
+  background:none;
+  text-align: center;
+}
+}
+
+.jumbotron h1{
+color: white;
+text-align: left;
+font-size:16px;
+}
+
+
+.btn-primary{
+background-color: #2754eb;
+color: white;
+}
+
+/*other tags*/
+img{
+	display: inline;
+    max-width: 100%;
+    max-height: 100%; 
+}
+/*
+p{
+	font-family: Montserrat;
+	color:#343e5b;
+	font-size: 14px;
+	text-align: center;
+}
+*/
+
